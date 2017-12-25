@@ -1,3 +1,51 @@
+/* modal */
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 99;
+	overflow: auto;
+}
+.content {
+	position: relative;
+	width: 75%;
+	background: #fff;
+	margin: 200px auto;
+	padding: 275px 110px 87px 110px;
+	border-radius: 5px;
+	font: 700 4.8rem 'Montserrat', sans-serif;
+	color: #e33048;
+}
+.subtitle {
+	font: 400 2.4rem 'Montserrat', sans-serif;
+	color: #b9bcd1;
+	margin-bottom: 85px;
+}
+.btn-link {
+	color: #fff;
+	background-color: #e33048;  
+	border-radius: 10px;
+	font: 400 2.4rem 'Montserrat', sans-serif;
+	padding: 40px 57px;
+	outline: none;
+}
+.btn-link:focus, .btn-link:hover {
+    color: #fff;
+    text-decoration: underline;
+    background-color: #bb283f;
+}
+.mod_img {
+	top: -230px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 488px;
+	height: 476px;
+	background: url(../img/modal_im.png);
+}
+
 /* sec 1 */
 html, body {
 	font-family: 'Open Sans', sans-serif;
